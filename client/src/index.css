@@ -1,0 +1,38 @@
+:root {
+  font-family:'Courier New', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 0%);    
+  font-family:'Courier New';
+}
+
+body::-webkit-scrollbar{
+  width: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #838588;
+  padding: 2px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  font-family: inherit;
+}

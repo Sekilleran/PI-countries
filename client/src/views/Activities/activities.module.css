@@ -1,0 +1,69 @@
+.activitiesPage {
+  background-image: url('../../assets/fondo2.jpg');
+    background-attachment: fixed;
+    background-position: center top; /* Alinea la imagen en la parte superior */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    left: 1.125%;
+    top: 10px;
+}
+
+.activitiesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    overflow: auto;
+}
+
+
+
+.activityPassport {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: auto;
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    max-width: 100%; /* Ajusta el ancho al 100% del contenedor (la página) */
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+  
+  .activityPassport::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .activityPassport::-webkit-scrollbar-thumb {
+    background-color: #ddd; /* Color de la línea de la barra de desplazamiento */
+    border-radius: 8px; /* Radio de la línea de la barra de desplazamiento */
+  }
+  
+  
+  
+  .activityInfo p {
+    font-size: 15px; /* Tamaño de fuente reducido a 10px */
+    color: #777;
+    text-align: center;
+  }
+  
+  .countries {
+    font-size: 10px; /* Tamaño de fuente reducido a 10px */
+    color: #777;
+    text-align: center;
+  }
+  
+  .activityHeader{
+    font-size: 8px;
+  }

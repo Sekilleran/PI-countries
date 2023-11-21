@@ -1,0 +1,47 @@
+
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+
+.progressBar {
+  height: 100%;
+  width: 0;
+  transition: width 0.5s ease;
+  background-color: #007bff;
+}
+
+.country {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+
+.country3 {
+  flex-direction: column;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.Country2 {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+
+.loadingBar {
+  background-color: #ddd;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+}

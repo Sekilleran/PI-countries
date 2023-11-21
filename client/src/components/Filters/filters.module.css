@@ -1,0 +1,33 @@
+
+.todosFiltros {
+  background-color: #f0f0f0; 
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px; 
+ }
+
+
+
+p:hover {
+  color: #0056b3; 
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+ 
+}
+p {
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px ;
+  color: #007bff; 
+ 
+}
+  
+  img {
+    margin-bottom: 10px;
+    height: 24px;
+    width: 24px; 
+    cursor: pointer;
+  }

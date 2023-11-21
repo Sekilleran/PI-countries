@@ -1,0 +1,63 @@
+/* home.module.css */
+
+/* Estilos para el contenedor principal */
+.homePage {
+  background-image: url('../../assets/fondo2.jpg');
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos para la barra de navegación (Navbar) */
+.nav {
+  background-color: #fff; /* Cambia el color de fondo según sea necesario */
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Ocupa todo el ancho */
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenido principal */
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+/* Estilos para el contenedor de filtros y barra de búsqueda */
+.filtersAndSearch {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: calc(30% - 20px); /* Ajustar el ancho según sea necesario */
+}
+
+/* Estilos para los componentes Filters y SearchBar */
+.Filters {
+  background-color: #fff; /* Cambia el color de fondo según sea necesario */
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.SearchBar {
+  background-color: #fff; /* Cambia el color de fondo según sea necesario */
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el componente Countries */
+.countries {
+  width: calc(70% - 20px); /* Ajustar el ancho según sea necesario */
+  background-color: #fff; /* Cambia el color de fondo según sea necesario */
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,53 @@
+
+
+.image13 {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.cartitaInfo p {
+  font-size: 12px; 
+}
+
+
+.cartitaInfo {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.countryCarta {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  width: 200px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  max-height: 270px;
+  overflow: auto;
+}
+
+.detailcountry {
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
+
+
+

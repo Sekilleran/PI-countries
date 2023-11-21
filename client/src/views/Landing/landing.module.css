@@ -1,0 +1,38 @@
+
+/* Estilos para la landing page simplificada */
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('../../assets/fondo1.png'); /* Ruta a tu imagen descargada */
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+  }
+  
+  /* Resto de tus estilos ... */
+  
+  
+  .title {
+    color: #333; /* Cambia el color del título según tu preferencia */
+    font-size: 36px; /* Cambia el tamaño de fuente del título según tu preferencia */
+    margin-bottom: 20px;
+  }
+  
+  .homeButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cambia el color del botón según tu preferencia */
+    color: #fff; /* Cambia el color del texto del botón según tu preferencia */
+    font-size: 18px; /* Cambia el tamaño de fuente del botón según tu preferencia */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .homeButton:hover {
+    background-color: #0056b3; /* Cambia el color del botón al pasar el mouse según tu preferencia */
+  }
+  

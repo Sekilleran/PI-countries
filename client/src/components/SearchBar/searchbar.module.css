@@ -1,0 +1,41 @@
+
+/* searchbar.module.css */
+
+.searchBar {
+  background-color: #f0f0f0; /* Fondo gris similar a la landing page */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+  height: 40px;
+  width: 320px;
+  margin-right: 1000px;
+  
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px; /* Tamaño de fuente similar a la landing page */
+}
+
+button {
+  background-color: #007bff; /* Color del botón similar a la landing page */
+  color: #fff; /* Color del texto del botón similar a la landing page */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Tamaño de fuente similar a la landing page */
+  transition: background-color 0.3s ease;
+  height: 40px;
+  
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el mouse similar a la landing page */
+}

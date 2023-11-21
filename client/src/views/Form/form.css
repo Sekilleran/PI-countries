@@ -1,0 +1,161 @@
+.selectBox{
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+}
+
+.country,
+.season,
+.difficulty{
+    color: #CDCDCD;
+    height: 30px;
+    width: 20%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New';
+    transition: .5s;
+    background-color: #CDCDCD;
+    border: none;
+}
+
+.country:hover,
+.season:hover,
+.difficulty:hover{
+    cursor: pointer;
+}
+
+.country:hover::before,
+.season:hover::before,
+.difficulty:hover::before,
+.countryActive::before,
+.seasonActive::before,
+.difficultyActive::before {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #007bff;
+    border-left: 8px solid transparent;
+    position: absolute;
+    left: calc(50% - 8px);
+    bottom: -15px;
+}
+
+
+.title{
+    margin: 0;
+    font-size: 20px;
+}
+
+.hiddenOptions{
+    color: #CDCDCD;
+    overflow: auto;
+    display: none;
+}
+
+.option p{
+    position: relative;
+    margin: 0;
+    transition: .5s;
+}
+
+.option p:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+    transition: .2s;
+}
+
+.option p:hover::before{
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #ffffff;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    left: 5px;
+}
+
+.showCountry,
+.hideCountry,
+.showSeason,
+.hideSeason,
+.showDifficulty,
+.hideDifficulty{
+    padding: 5px 0;
+    background-color: #fbfcfd;
+    color: #CDCDCD;
+    font-weight: 300;
+    overflow-x: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column ;
+    width: 30%;
+    top: 45px;
+    gap: 15px;
+    z-index: 999;
+    
+}
+
+.showCountry::-webkit-scrollbar,
+.hideCountry::-webkit-scrollbar,
+.showSeason::-webkit-scrollbar,
+.hideSeason::-webkit-scrollbar,
+.hideDifficulty::-webkit-scrollbar,
+.showDifficulty::-webkit-scrollbar {
+    width: 2px;
+}
+
+.hideCountry::-webkit-scrollbar-thumb,
+.showSeason::-webkit-scrollbar-thumb,
+.hideSeason::-webkit-scrollbar-thumb,
+.hideDifficulty::-webkit-scrollbar-thumb,
+.showDifficulty::-webkit-scrollbar-thumb,
+.showCountry::-webkit-scrollbar-thumb{
+    background-color: #CDCDCD;
+}
+
+.showCountry,
+.showSeason,
+.showDifficulty {
+    animation: difficulty .5s;
+    height: 141px;
+}
+
+@keyframes difficulty {
+    0%{
+        height: 0px;
+        opacity: 0;
+    }
+    100%{
+        height: 141px;
+        opacity: 1;
+    }
+}
+
+.hideCountry,
+.hideSeason,
+.hideDifficulty{
+    animation: hideOrder .5s;
+}
+
+@keyframes hideOrder {
+    0%{
+        height: 141px;
+        opacity: 1;
+    }
+
+    100%{
+        height: 0;
+        opacity: 0;
+    }
+}
